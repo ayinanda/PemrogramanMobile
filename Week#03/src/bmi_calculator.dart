@@ -11,4 +11,17 @@ void main() {
     print("Error: Input harus berupa angka positif!");
     return;
   }
+
+  double tinggiMeter = tinggi / 100;
+  double bmi = berat / (tinggiMeter * tinggiMeter);
+
+  String kategori;
+  if (bmi < 18.5) {
+    kategori = "Kurus";
+  } else if (bmi <= 24.9) {
+    kategori = "Normal";
+  } else {
+    kategori = "Gemuk";
+  }
+  print("Hasil BMI: ${bmi.toStringAsFixed(2)} ($kategori)");
 }
