@@ -49,11 +49,9 @@ void main() {
   print("Total Akhir  : Rp ${totalAkhir.toStringAsFixed(0)}");
   print("===================================");
 }
-
 // Fungsi hitungTotal dengan parameter List dan return double 
 double hitungTotal(List<double> daftarHarga) {
   double total = 0;
-  // Perulangan for-in 
   for (double harga in daftarHarga) {
     total += harga;
   }
