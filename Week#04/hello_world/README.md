@@ -1,13 +1,5 @@
-# Praktikum Pemrograman Mobile
+# hello_world
 
-Nama : Gargarina Nanda Iswati  
-NIM : 244107060100  
-Kelas / Absen : SIB-2F / 11  
+A new Flutter project 
 
----
-
-## Hello World Flutter
-A new Flutter project.
-
-## Getting Started
-This project is a starting point for a Flutter application.
+![Screenshot hello_world](images/01.png)
